@@ -17,7 +17,7 @@ body{
     margin: auto;
     height: 100vh;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 10% 70% 20%;
+    grid-template-rows: 5% 70% 25%;
 }
 figure{
     max-width: 100%;
@@ -39,7 +39,7 @@ figure img{
 marquee{
     font-size: 20px;
     text-align: center;
-    line-height: 200%;
+    line-height: 150%;
     width: 60%;
 }
 button{
