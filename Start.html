@@ -21,14 +21,15 @@
 
 
 
-
-            <marquee behavior="scroll" direction="Up" scrollamount="1">Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Placeat tempora numquam veniam doloremque ab molestiae accusantium! Quaerat accusamus
-                veniam ducimus ratione laborum ex, dolores ab similique facere suscipit illo omnis?</marquee>
+            <p style=" color:#b3b300;">Hover text to pause</p>
+            <marquee behavior="scroll" direction="Up" scrollamount="1" 
+                onmouseover="this.stop();"
+                onmouseout="this.start();"></marquee>
 
 
             <button onclick="window.location.href ='sida2.html';">Next</button>
             <button onclick="window.location.href ='sida2.html';">Next</button>
+            
         </div>
 
     </div>
